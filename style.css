@@ -161,3 +161,61 @@ small {
 .city_card{
 	max-height: 4rem;
 }
+
+/*comment*/
+
+.box{
+	text-align: center;
+	margin-top: 5%;
+}
+.avatar{
+	color: black;
+	margin-top: 1%;
+	display: flex;
+	justify-content: center;
+}
+
+.form-group {
+	display: flex;
+	flex-direction: column;
+}
+
+.box_card_1{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.box_card_2{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.card_comment{
+	height: 20rem; 
+	width: 40rem;
+}
+.group_card_comment{
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+	margin-top: 5%;
+	margin-left: 0;
+}
+.card-title{
+	display: flex;
+	justify-content: center;
+}
+
+#exampleTextarea{
+	resize: none;
+}
+
+#comment_btn{
+	margin-left: 39%;
+	background-color: #6c757d;
+	color: white;
+	opacity: 0.4;
+	border: none;
+	border-radius: 3px;
+	width: 100px;
+}
